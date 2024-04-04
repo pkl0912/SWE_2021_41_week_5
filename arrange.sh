@@ -8,7 +8,7 @@ move_file_to_directory() {
   mv "$file" "$initial_char/"
 }
 
-# 파일 이동
+
 for file in files/*; do
   move_file_to_directory "$file"
 done
